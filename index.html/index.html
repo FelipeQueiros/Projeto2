@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./main2.css">
+</head>
+<body>
+    <div class="container">
+            <header>
+            <img src="agenda.webp" alt="Agenda verde com lapis vermelho">
+            <h1>Agenda online</h1>
+            </header>
+            <form id="cadastroLista">
+                <input type="text" id="cadastroNome" required placeholder="Insira o nome aqui">
+                <input type="number" id="cadastroTelefone" required placeholder="Insira o número aqui">
+                <button type="submit"> Cadastrar</button>
+            </form>
+            <table cellspacing = "0">
+                <tr>
+                    <th>
+                        Nome:
+                    </th>
+                    <th>
+                        Número de telefone:
+                    </th>
+                </tr>
+                
+            <tfoot>
+                <tr>
+                    <td id="nomeTel">
+                        -
+                    </td>
+                    <td id="numeTel">
+                        -
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+    </div>
+    <script src="./main2.js"></script>
+</body>
+</html>

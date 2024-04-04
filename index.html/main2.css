@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-image: url(ParedeMadeira.jpg);
+}
+
+body {
+    background-color: #222121;
+    padding-top: 60px;
+    text-align: center;
+    
+}
+
+header {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+header h1 {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bolder ;
+box-sizing: border-box;
+border-width: 40px;
+width: 50%;
+text-shadow: 0 0 10px rgb(7, 7, 7);
+border: 2px solid transparent;
+
+}
+
+table th{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+body img {
+    height: 40px;
+    margin-left: 200px;
+}
+
+form {
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    max-width: 640px;
+
+}
+
+form input {
+    color: #000;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #525151;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+form button {
+    background-color: rgb(255, 255, 255);
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
